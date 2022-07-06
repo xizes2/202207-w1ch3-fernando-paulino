@@ -1,0 +1,26 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  color: #ed6436;
+  padding: 10px;
+  text-align: center;
+}
+
+section p {
+  font-size: 4vw;
+  text-align: center;
+}
+
+button {
+  align-items: center;
+}
