@@ -101,3 +101,52 @@ img {
     height: 600px;
   }
 }
+
+.text-on-hover {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.picture-text {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px 0;
+  top: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+}
+
+.picture-text:nth-child(2) {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px 0;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+}
+
+.text-on-hover:hover .picture-text {
+  visibility: visible;
+}
+
+.picture-text h2 {
+  font-size: 13px;
+  font-family: Nunito, sans-serif;
+}
+
+.picture-text p {
+  font-size: 20px;
+  font-family: Nunito, sans-serif;
+}
