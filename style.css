@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-main {
+body main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +22,8 @@ h1 {
   color: #ed6436;
   padding: 10px;
   text-align: center;
+  font-family: Nunito, sans-serif;
+  font-size: 15px;
 }
 
 section:first-of-type {
@@ -41,6 +43,9 @@ section:first-of-type {
 section p {
   font-size: 4vw;
   text-align: center;
+  font-family: Nunito, sans-serif;
+  font-weight: 800;
+  font-size: 2em;
 }
 
 @media (min-width: 1000px) {
