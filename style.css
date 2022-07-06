@@ -33,12 +33,30 @@ section:first-of-type {
 @media (min-width: 1000px) {
   .images {
     display: flex;
+    justify-content: space-around;
+    width: auto;
   }
 }
 
 section p {
   font-size: 4vw;
   text-align: center;
+}
+
+@media (min-width: 1000px) {
+  section,
+  p,
+  button {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  section:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 button {
